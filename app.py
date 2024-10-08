@@ -19,16 +19,9 @@ def stocks():
     return render_template('stocks.html', stocks=stocks)
 
 @app.route('/stocks')
-<<<<<<< HEAD
-def team1000m1000():
-    print("Rahul Kashyap")
-    
-=======
 def team1m1():
     print("Erik")
-
-
->>>>>>> ea54487 (feat: added name for assignment)
+    
 
 if __name__ == "__main__": app.run(debug=True)
 
